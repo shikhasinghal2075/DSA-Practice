@@ -3,6 +3,7 @@ using namespace std;
 
 // Bubble Sort: Worst case Time Complexity = O(n^2)
 // Does not require extra memory : Input array itself modified
+// Stable sorting : In place sorting algo
 void bubbleSort(int* arr,int n){        //Naive Approach
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
