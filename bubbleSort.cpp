@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Compare adjacent elements and swap when they are out of order
 // Bubble Sort: Worst case Time Complexity = O(n^2)
 // Does not require extra memory : Input array itself modified
 // Stable sorting : In place sorting algo
